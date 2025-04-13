@@ -22,9 +22,9 @@ class IcedContainer extends StatelessWidget {
     return Stack(
       children: [
         Positioned.fill(
-          top: 10,
+          top: 15,
           child: ImageFiltered(
-            imageFilter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+            imageFilter: ImageFilter.blur(sigmaX: 30, sigmaY: 30),
             child: Container(
               width: width,
               height: height,
